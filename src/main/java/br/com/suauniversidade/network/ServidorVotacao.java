@@ -14,7 +14,7 @@ public class ServidorVotacao {
         votos.put("Candidato A", 0);
         votos.put("Candidato B", 0);
 
-        iniciarTemporizador(60000); // 1 minuto de votação
+        iniciarTemporizador(60000);
 
         try (ServerSocket serverSocket = new ServerSocket(8080)) {
             System.out.println("Servidor de Votação (Ex 5) iniciado na porta 8080.");
